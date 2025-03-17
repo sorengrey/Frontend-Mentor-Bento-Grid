@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col headline p-[32px] bg-[#7551DC] inline-block text-center rounded-[10px] w-full">
+        <div className="flex flex-col headline p-[32px] bg-[#7551DC] inline-block text-center justify-items-center rounded-[10px] w-full">
           Social Media
           <div className="flex text-[#FFCC6A] inline"> 10x </div>
           <i>Faster </i>with AI
-          <div className="">
+          <div className="mt-[24px] mb-[8px]">
             <Image
               src="/stars.svg"
               alt="five stars"
@@ -21,19 +21,19 @@ export default function Home() {
             Over 4,000 5-star reviews
           </div>
         </div>
-        <div className="flex flex-col items-center p-[20px] bg-white text-preset-3 rounded-[10px] padding-[16px]">
+        <div className="flex flex-col items-center p-[16px] bg-white text-preset-3 rounded-[10px] padding-[16px]">
           <div className="inline-flex bg-white mb-[16px] text-preset-1">
-            <div className="inline">
+            <div className="inline shadow-sm rounded-[34px] ">
               <Image
-                src="/camera.png"
+                src="/instagram.svg"
                 alt="instagram logo"
                 width="42"
                 height="42"
               />
               @YourCo <div className="text-gray">12K Followers</div>
             </div>
-            <div className="inline padding-[12px] text-preset-1">
-              <Image src="/twitter.png" alt="x logo" width="42" height="42" />
+            <div className="flex flex-col padding-[12px] text-preset-1 shadow-sm rounded-[34px]">
+              <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
               @YourCo <div className="text-gray">8k Followers</div>
             </div>
           </div>
@@ -44,14 +44,16 @@ export default function Home() {
           <Image src="/calendar.png" alt="calendar" width="208" height="157" />
         </div>
         <div className="bg-[#DBD1FC] rounded-[10px] p-[20px] text-black">
-          <div className="text-preset-3"> Schedule to social media.</div>
+          <div className="text-preset-3 mb-[24px]">
+            Schedule to social media.
+          </div>
           <Image src="/graph.png" alt="graph" width="308" height="272" />
-          <div className="text-preset-2">
+          <div className="text-preset-2 mt-[24px] text-center">
             Optimize post timings to publish content at the perfect time for
             your audience.
           </div>
         </div>
-        <div className="bg-[#7551DC] items-center rounded-[10px] p-[20px] text-white  w-full">
+        <div className="bg-[#7551DC] items-center rounded-[10px] p-[20px] text-white text-preset-3 w-full">
           <Image
             src="/followers.png"
             alt="growth chart"

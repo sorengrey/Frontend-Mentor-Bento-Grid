@@ -41,7 +41,7 @@ body {
 }
 
 .text-preset-2 {
-  @apply text-black font-medium text-[18px] leading-[20px] tracking-[0px];
+  @apply text-[18px] leading-[20px] tracking-[0px];
 }
 
 .text-preset-3 {
