@@ -39,11 +39,11 @@ export default function Home() {
           </div>
           Manage multiple accounts and platforms.
         </div>
-        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] w-full text-preset-3">
+        <div className="bg-[#FFCC6A] items-center rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3">
           Maintain a consistent posting schedule.
-          <Image src="/calendar.png" alt="calendar" width="208" height="157" />
+          <Image src="/calendar.svg" alt="calendar" width="208" height="157" />
         </div>
-        <div className="bg-[#DBD1FC] rounded-[10px] p-[20px] text-black">
+        <div className="bg-[#DBD1FC] rounded-[10px] p-[16px] text-black">
           <div className="text-preset-3 mb-[24px]">
             Schedule to social media.
           </div>
@@ -66,12 +66,14 @@ export default function Home() {
           56% faster audience growth
           <Image src="/avatars.png" alt="avatars" width="178" height="66" />
         </div>
-        <div className="bg-[#F9EEE2] items-center rounded-[10px] p-[20px] text-black w-full">
+        <div className="bg-[#F9EEE2] items-center rounded-[10px] p-[32px] text-black text-[32px] font-medium leading-[28px] tracking-[-0.06em] pb-[24px] w-full">
           Create and schedule content
-          <div className="flex text-[#7551DC] inline">
+          <div className="text-[#7551DC] inline mb-[24px]">
             <i> quicker.</i>
+          </div>
+          <div className="mt-[24px]">
             <Image
-              src="/button.png"
+              src="/button.svg"
               alt="create post button"
               width="190"
               height="90"
