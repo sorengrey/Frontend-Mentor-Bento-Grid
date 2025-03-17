@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen py-[40px] bg-[#F6F5F6]">
-      <div className="grid items-center justify-items-center gap-[20px]">
-        <div className="flex flex-col items-center p-[20px] bg-[#7551DC] inline-block text-white rounded-[10px]">
+    <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
+      <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
+        <div className="flex flex-col p-[20px] bg-[#7551DC] font-medium inline-block tracking-tighter text-white text-center text-5xl rounded-[10px] w-full">
           Social Media
           <div className="flex text-[#FFCC6A] inline"> 10x </div>
           <i>Faster</i> with AI
@@ -15,11 +15,13 @@ export default function Home() {
             height="32"
             // className="w-[192px] h-[32px]"
           />
-          <div>Over 4,000 5-star reviews</div>
+          <div className="text-lg font-light tracking-normal">
+            Over 4,000 5-star reviews
+          </div>
         </div>
-        <div className="flex flex-col items-center p-[20px] bg-white text-black rounded-[10px]">
-          <div className="inline-flex bg-white">
-            <div className="inline">
+        <div className="flex flex-col items-center p-[20px] bg-white text-black rounded-[10px] padding-[16px]">
+          <div className="inline-flex bg-white mb-[16px]">
+            <div className="inline-flex">
               <Image
                 src="/camera.png"
                 alt="instagram logo"
@@ -28,14 +30,14 @@ export default function Home() {
               />
               @YourCo 12K Followers
             </div>
-            <div className="inline">
+            <div className="inline-flex padding-[12px]">
               <Image src="/twitter.png" alt="x logo" width="42" height="42" />
               @YourCo 8k Followers
             </div>
           </div>
           Manage multiple accounts and platforms.
         </div>
-        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] text-black">
+        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] w-full text-black">
           Maintain a consistent posting schedule.
           <Image src="/calendar.png" alt="calendar" width="208" height="157" />
         </div>
@@ -47,7 +49,7 @@ export default function Home() {
             your audience.
           </div>
         </div>
-        <div className="bg-[#7551DC] items-center rounded-[10px] p-[20px] text-white">
+        <div className="bg-[#7551DC] items-center rounded-[10px] p-[20px] text-white  w-full">
           <Image
             src="/followers.png"
             alt="growth chart"
@@ -56,11 +58,11 @@ export default function Home() {
           />
           Grow followers with non-stop content.
         </div>
-        <div className="bg-white items-center rounded-[10px] p-[20px] text-black">
+        <div className="bg-white items-center rounded-[10px] p-[20px] text-black w-full">
           56% faster audience growth
           <Image src="/avatars.png" alt="avatars" width="178" height="66" />
         </div>
-        <div className="bg-[#F9EEE2] items-center rounded-[10px] p-[20px] text-black">
+        <div className="bg-[#F9EEE2] items-center rounded-[10px] p-[20px] text-black w-full">
           Create and schedule content
           <div className="flex text-[#7551DC] inline">
             <i> quicker.</i>
@@ -72,7 +74,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] text-black">
+        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] text-black w-full">
           Write your content using AI.
           <Image src="/chat.png" alt="ai chat" width="219" height="222" />
         </div>
