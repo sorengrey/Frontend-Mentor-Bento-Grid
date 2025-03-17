@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -11,6 +15,13 @@
   --font-sans: var(--font-dm-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+.headline {
+  @apply text-white font-medium tracking-tighter text-5xl;
+}
+/* .text-preset-3 {
+  @apply bg-brandPurple text-white py-2 px-4 rounded-lg;
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

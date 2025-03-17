@@ -4,17 +4,19 @@ export default function Home() {
   return (
     <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col p-[20px] bg-[#7551DC] font-medium inline-block tracking-tighter text-white text-center text-5xl rounded-[10px] w-full">
+        <div className="flex flex-col headline p-[20px] bg-[#7551DC] inline-block text-center rounded-[10px] w-full">
           Social Media
           <div className="flex text-[#FFCC6A] inline"> 10x </div>
           <i>Faster</i> with AI
-          <Image
-            src="/stars.svg"
-            alt="five stars"
-            width="192"
-            height="32"
-            // className="w-[192px] h-[32px]"
-          />
+          <div className="text-center margin-auto">
+            <Image
+              src="/stars.svg"
+              alt="five stars"
+              width="192"
+              height="32"
+              // className="w-[192px] h-[32px]"
+            />
+          </div>
           <div className="text-lg font-light tracking-normal">
             Over 4,000 5-star reviews
           </div>
