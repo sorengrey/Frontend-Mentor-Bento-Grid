@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col headline p-[20px] bg-[#7551DC] inline-block text-center rounded-[10px] w-full">
+        <div className="flex flex-col headline p-[32px] bg-[#7551DC] inline-block text-center rounded-[10px] w-full">
           Social Media
           <div className="flex text-[#FFCC6A] inline"> 10x </div>
-          <i>Faster</i> with AI
-          <div className="text-center margin-auto">
+          <i>Faster </i>with AI
+          <div className="">
             <Image
               src="/stars.svg"
               alt="five stars"
@@ -21,32 +21,32 @@ export default function Home() {
             Over 4,000 5-star reviews
           </div>
         </div>
-        <div className="flex flex-col items-center p-[20px] bg-white text-black rounded-[10px] padding-[16px]">
-          <div className="inline-flex bg-white mb-[16px]">
-            <div className="inline-flex">
+        <div className="flex flex-col items-center p-[20px] bg-white text-preset-3 rounded-[10px] padding-[16px]">
+          <div className="inline-flex bg-white mb-[16px] text-preset-1">
+            <div className="inline">
               <Image
                 src="/camera.png"
                 alt="instagram logo"
                 width="42"
                 height="42"
               />
-              @YourCo 12K Followers
+              @YourCo <div className="text-gray">12K Followers</div>
             </div>
-            <div className="inline-flex padding-[12px]">
+            <div className="inline padding-[12px] text-preset-1">
               <Image src="/twitter.png" alt="x logo" width="42" height="42" />
-              @YourCo 8k Followers
+              @YourCo <div className="text-gray">8k Followers</div>
             </div>
           </div>
           Manage multiple accounts and platforms.
         </div>
-        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] w-full text-black">
+        <div className="bg-[#FFCC6A] items-center rounded-[10px] p-[20px] w-full text-preset-3">
           Maintain a consistent posting schedule.
           <Image src="/calendar.png" alt="calendar" width="208" height="157" />
         </div>
         <div className="bg-[#DBD1FC] rounded-[10px] p-[20px] text-black">
-          <div> Schedule to social media.</div>
+          <div className="text-preset-3"> Schedule to social media.</div>
           <Image src="/graph.png" alt="graph" width="308" height="272" />
-          <div>
+          <div className="text-preset-2">
             Optimize post timings to publish content at the perfect time for
             your audience.
           </div>

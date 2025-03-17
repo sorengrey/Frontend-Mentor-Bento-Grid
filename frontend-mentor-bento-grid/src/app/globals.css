@@ -16,13 +16,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-.headline {
-  @apply text-white font-medium tracking-tighter text-5xl;
-}
-/* .text-preset-3 {
-  @apply bg-brandPurple text-white py-2 px-4 rounded-lg;
-} */
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -35,3 +28,29 @@ body {
   color: var(--foreground);
   font-family: 'DM Sans', Helvetica, sans-serif;
 }
+
+
+/* Custom Styles */
+
+.headline {
+  @apply text-white font-medium tracking-[-0.085em] text-[46px] leading-[42px];
+}
+
+.text-preset-1 {
+  @apply text-black font-medium text-[16px] leading-[20px] tracking-[0px];
+}
+
+.text-preset-2 {
+  @apply text-black font-medium text-[18px] leading-[20px] tracking-[0px];
+}
+
+.text-preset-3 {
+  @apply text-black font-medium text-[26px] leading-[24px] tracking-[-0.06em];
+}
+
+.text-gray {
+  @apply text-[12px] text-[#9E9E9E] tracking-[-0.03em];
+}
+
+/* .mobile-defaults {} */
+
