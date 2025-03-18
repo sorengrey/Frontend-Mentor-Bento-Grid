@@ -12,6 +12,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-purple-100: #DBD1FC;
+  --color-purple-500: #7551DC;
+  --color-white: #FFFFFF;
+  --color-black: #121212;
+  --color-yellow-100: #F9EEE2;
+  --color-yellow-500: #FFCC6A;
   --font-sans: var(--font-dm-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -29,53 +35,23 @@ body {
   font-family: 'DM Sans', Helvetica, sans-serif;
 }
 
-/* Custom Colors */
-
-.purple-100 {
-  color: #DBD1FC;
-}
-
-.purple-500 {
-  color: #7551DC;
-}
-
-.yellow-100 {
-  color: #F9EEE2;
-}
-
-.yellow-500 {
-  color: #FFCC6A;
-}
-
-.white {
-  color: #FFFFFF;
-}
-
-.black {
-  color: #121212;
-}
 
 /* Custom Styles */
 
-.headline {
-  @apply text-white font-medium tracking-[-0.085em] text-[46px] leading-[42px];
-}
-
 .text-preset-1 {
-  @apply text-black font-medium text-[16px] leading-[20px] tracking-[0px];
+  @apply  font-medium text-[62px] leading-[58px] tracking-[-3px];
 }
 
 .text-preset-2 {
-  @apply text-white font-medium tracking-[-0.085em] text-[46px] leading-[42px];
-  /* @apply text-[18px] leading-[20px] tracking-[0px]; */
+  @apply font-medium text-[40px] leading-[42px] tracking-[-2px];
 }
 
 .text-preset-3 {
-  @apply text-black font-medium text-[26px] leading-[24px] tracking-[-0.06em];
+  @apply font-medium text-[32px] leading-[28px] tracking-[-2px];
 }
 
 .text-preset-4 {
-  @apply text-[12px] text-[#9E9E9E] tracking-[-0.03em];
+  @apply text-[18px] text-[#9E9E9E/70] leading-[20px] tracking-[0px];
 }
 
 

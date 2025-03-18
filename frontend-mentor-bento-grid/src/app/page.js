@@ -4,18 +4,12 @@ export default function Home() {
   return (
     <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col headline p-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
+        <div className="flex flex-col text-preset-1 p-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
           Social Media
           <div className="flex text-yellow-500 inline"> 10x </div>
           <i>Faster </i>with AI
           <div className="mt-[24px] mb-[8px]">
-            <Image
-              src="/stars.svg"
-              alt="five stars"
-              width="192"
-              height="32"
-              // className="w-[192px] h-[32px]"
-            />
+            <Image src="/stars.svg" alt="five stars" width="192" height="32" />
           </div>
           <div className="text-lg font-light tracking-normal">
             Over 4,000 5-star reviews
@@ -39,7 +33,7 @@ export default function Home() {
           </div>
           Manage multiple accounts and platforms.
         </div>
-        <div className="bg-yellow-500 items-center rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3">
+        <div className="bg-yellow-500 items-center rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black">
           Maintain a consistent posting schedule.
           <Image src="/calendar.svg" alt="calendar" width="208" height="157" />
         </div>
@@ -53,7 +47,7 @@ export default function Home() {
             your audience.
           </div>
         </div>
-        <div className="bg-purple-500 items-center rounded-[10px] p-[20px] text-white text-preset-3 w-full">
+        <div className="bg-purple-500 items-center rounded-[10px] p-[20px] text-preset-3 w-full">
           <Image
             src="/followers.png"
             alt="growth chart"
