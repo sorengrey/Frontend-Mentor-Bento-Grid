@@ -29,7 +29,31 @@ body {
   font-family: 'DM Sans', Helvetica, sans-serif;
 }
 
+/* Custom Colors */
 
+.purple-100 {
+  color: #DBD1FC;
+}
+
+.purple-500 {
+  color: #7551DC;
+}
+
+.yellow-100 {
+  color: #F9EEE2;
+}
+
+.yellow-500 {
+  color: #FFCC6A;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #121212;
+}
 /* Custom Styles */
 
 .headline {
