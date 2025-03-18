@@ -6,7 +6,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #121212;
 }
 
 @theme inline {
@@ -54,6 +54,7 @@ body {
 .black {
   color: #121212;
 }
+
 /* Custom Styles */
 
 .headline {
@@ -65,16 +66,18 @@ body {
 }
 
 .text-preset-2 {
-  @apply text-[18px] leading-[20px] tracking-[0px];
+  @apply text-white font-medium tracking-[-0.085em] text-[46px] leading-[42px];
+  /* @apply text-[18px] leading-[20px] tracking-[0px]; */
 }
 
 .text-preset-3 {
   @apply text-black font-medium text-[26px] leading-[24px] tracking-[-0.06em];
 }
 
-.text-gray {
+.text-preset-4 {
   @apply text-[12px] text-[#9E9E9E] tracking-[-0.03em];
 }
+
 
 /* .mobile-defaults {} */
 
