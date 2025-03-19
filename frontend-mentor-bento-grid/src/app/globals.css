@@ -39,7 +39,7 @@ body {
 /* Custom Styles */
 
 .text-preset-1 {
-  @apply  font-medium text-[62px] leading-[58px] tracking-[-3px];
+  @apply font-medium leading-[42px] tracking-[-4px]; 
 }
 
 .text-preset-2 {
@@ -47,11 +47,11 @@ body {
 }
 
 .text-preset-3 {
-  @apply font-medium text-[32px] leading-[28px] tracking-[-2px];
+  @apply text-[26px] font-medium leading-[24px] tracking-[-0.06em];
 }
 
 .text-preset-4 {
-  @apply text-[18px] text-[#9E9E9E/70] leading-[20px] tracking-[0px];
+  @apply text-[12px] text-[#9E9E9E/70] leading-[20px] tracking-[0px];
 }
 
 

@@ -4,36 +4,51 @@ export default function Home() {
   return (
     <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col text-preset-1 p-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
+        <div className="flex flex-col text-preset-1 text-[46px] p-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
           Social Media
           <div className="flex text-yellow-500 inline"> 10x </div>
-          <i>Faster </i>with AI
+          <i className="mr-[10px]">Faster</i>with AI
           <div className="mt-[24px] mb-[8px]">
             <Image src="/stars.svg" alt="five stars" width="192" height="32" />
           </div>
-          <div className="text-lg font-light tracking-normal">
+          <div className="text-[18px] leading-[20px] tracking-[0] font-normal">
             Over 4,000 5-star reviews
           </div>
         </div>
-        <div className="flex flex-col items-center p-[16px] bg-white text-preset-3 rounded-[10px] padding-[16px]">
-          <div className="inline-flex bg-white mb-[16px] text-preset-1">
-            <div className="inline shadow-sm rounded-[34px] ">
+
+        <div className="flex flex-col p-[16px] text-black bg-white text-[26px] rounded-[10px] padding-[16px]">
+          <div className="flex bg-white mb-[16px] gap-[10px]">
+            <div className="instagram flex flex-row flex-1 p-[12px] shadow-sm rounded-[34px] text-[16px]">
               <Image
                 src="/instagram.svg"
                 alt="instagram logo"
                 width="42"
                 height="42"
               />
-              @YourCo <div className="text-preset-4">12K Followers</div>
+              <div className="flex flex-col font-medium tracking-[-0.06em]">
+                @YourCo
+                <div className="text-preset-4 text-[#9E9E9E]">
+                  12K Followers
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col padding-[12px] text-preset-1 shadow-sm rounded-[34px]">
+
+            <div className="twitter flex flex-1 p-[12px] shadow-sm rounded-[34px]">
               <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
-              @YourCo <div className="text-preset-4">8k Followers</div>
+              <div className="flex flex-col">
+                <div className="text-[16px] font-medium tracking-[-0.06em]">
+                  @YourCo
+                </div>
+                <div className="text-preset-4 text-[#9E9E9E]">8k Followers</div>
+              </div>
             </div>
           </div>
-          Manage multiple accounts and platforms.
+          <div className="text-[26px] font-medium leading-[24px] tracking-[-0.06em]">
+            Manage multiple accounts and platforms.
+          </div>
         </div>
-        <div className="bg-yellow-500 items-center rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black">
+
+        <div className="bg-yellow-500 items-center rounded-[10px] pt-[16px] px-[16px] w-full text-[26px] font-medium leading-[24px] tracking-[-0.06em] text-black">
           Maintain a consistent posting schedule.
           <Image src="/calendar.svg" alt="calendar" width="208" height="157" />
         </div>
@@ -42,12 +57,12 @@ export default function Home() {
             Schedule to social media.
           </div>
           <Image src="/graph.png" alt="graph" width="308" height="272" />
-          <div className="text-preset-2 mt-[24px] text-center">
+          <div className="text-[18px] tracking-[0] leading-[20px] mt-[24px] text-center">
             Optimize post timings to publish content at the perfect time for
             your audience.
           </div>
         </div>
-        <div className="bg-purple-500 items-center rounded-[10px] p-[20px] text-preset-3 w-full">
+        <div className="bg-purple-500 items-center text-center rounded-[10px] p-[20px] text-preset-3 w-full">
           <Image
             src="/followers.png"
             alt="growth chart"
