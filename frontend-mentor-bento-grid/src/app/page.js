@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className="flex flex-col p-[16px] text-black bg-white text-[26px] rounded-[10px] padding-[16px]">
           <div className="flex bg-white mb-[16px] gap-[10px]">
-            <div className="flex flex-row flex-1 p-[12px] shadow-sm rounded-[34px] text-[16px]">
+            <div className="flex flex-row flex-1 p-[12px] shadow-[0_0_24.45px_0_rgba(98,26,123,0.05)] rounded-[34px] text-[16px]">
               <Image
                 src="/instagram.svg"
                 alt="instagram logo"
@@ -33,7 +33,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-1 p-[12px] shadow-sm rounded-[34px]">
+            <div className="flex flex-1 p-[12px] shadow-[0_0_24.45px_0_rgba(98,26,123,0.05)] rounded-[34px]">
               <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
               <div className="flex flex-col ml-[8px]">
                 <div className="text-[16px] font-medium tracking-[-0.06em]">
@@ -43,7 +43,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="text-[26px] font-medium leading-[24px] tracking-[-0.06em]">
+          <div className="text-[26px] font-medium leading-[24px] tracking-[-0.06em] ">
             Manage multiple accounts and platforms.
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
         </div>
 
         <div className="bg-purple-500 text-center rounded-[10px] p-[20px] text-preset-3 w-full">
-          <div className="justify-items-center">
+          <div className="justify-items-center ">
             <Image
               src="/chart.svg"
               alt="growth chart"
@@ -81,11 +81,18 @@ export default function Home() {
               height="200"
             />
           </div>
-          Grow followers with non-stop content.
+          <p className="text-[32px] font-medium leading-[28px] tracking-[-0.085em]">
+            Grow followers with non-stop content.
+          </p>
         </div>
-        <div className="bg-white rounded-[10px] p-[20px] text-black w-full">
-          <span>&gt;</span> 56% faster audience growth
-          <Image src="/avatars.png" alt="avatars" width="178" height="66" />
+        <div className="bg-white rounded-[10px] p-[24px] text-black w-full">
+          <div className="text-[46px] font-medium leading-[42px] tracking-[-0.085em] mb-[15px]">
+            <span>&gt;</span>56%{" "}
+          </div>
+          <p className="mb-[24px] text-[18px] leading-[20px] tracking-[0]">
+            faster audience growth
+          </p>
+          <Image src="/avatars.png" alt="avatars" width="179" height="67" />
         </div>
         <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] font-medium leading-[28px] tracking-[-0.085em] w-full">
           Create and schedule content
