@@ -11,21 +11,21 @@ export default function Home() {
           <div className="mt-[24px] mb-[8px]">
             <Image src="/stars.svg" alt="five stars" width="192" height="32" />
           </div>
-          <div className="text-[18px] leading-[20px] tracking-[0] font-normal">
+          <div className="text-[18px] leading-[20px] tracking-[0px] font-normal">
             Over 4,000 5-star reviews
           </div>
         </div>
 
         <div className="flex flex-col p-[16px] text-black bg-white text-[26px] rounded-[10px] padding-[16px]">
           <div className="flex bg-white mb-[16px] gap-[10px]">
-            <div className="instagram flex flex-row flex-1 p-[12px] shadow-sm rounded-[34px] text-[16px]">
+            <div className="flex flex-row flex-1 p-[12px] shadow-sm rounded-[34px] text-[16px]">
               <Image
                 src="/instagram.svg"
                 alt="instagram logo"
                 width="42"
                 height="42"
               />
-              <div className="flex flex-col font-medium tracking-[-0.06em]">
+              <div className="flex flex-col font-medium tracking-[-0.06em]  ml-[8px]">
                 @YourCo
                 <div className="text-preset-4 text-[#9E9E9E]">
                   12K Followers
@@ -33,9 +33,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="twitter flex flex-1 p-[12px] shadow-sm rounded-[34px]">
+            <div className="flex flex-1 p-[12px] shadow-sm rounded-[34px]">
               <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
-              <div className="flex flex-col">
+              <div className="flex flex-col ml-[8px]">
                 <div className="text-[16px] font-medium tracking-[-0.06em]">
                   @YourCo
                 </div>
@@ -48,34 +48,46 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-yellow-500 items-center rounded-[10px] pt-[16px] px-[16px] w-full text-[26px] font-medium leading-[24px] tracking-[-0.06em] text-black">
+        <div className="bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-[26px] font-medium leading-[24px] tracking-[-0.06em] text-black">
           Maintain a consistent posting schedule.
-          <Image src="/calendar.svg" alt="calendar" width="208" height="157" />
+          <Image
+            src="/calendar.svg"
+            alt="calendar"
+            width="208"
+            height="157"
+            className="ml-[-12px]"
+          />
         </div>
-        <div className="bg-purple-100 rounded-[10px] p-[16px] text-black">
+
+        <div className="bg-purple-100 rounded-[10px] p-[32px] text-black text-center justify-items-center w-full">
           <div className="text-preset-3 mb-[24px]">
             Schedule to social media.
           </div>
-          <Image src="/graph.png" alt="graph" width="308" height="272" />
-          <div className="text-[18px] tracking-[0] leading-[20px] mt-[24px] text-center">
+          <div className="w-[308px] h-[272px]">
+            <Image src="/graph.svg" alt="graph" width={308} height={272} />
+          </div>
+          <div className="text-[18px] tracking-[0px] leading-[20px] mt-[24px] text-center">
             Optimize post timings to publish content at the perfect time for
             your audience.
           </div>
         </div>
-        <div className="bg-purple-500 items-center text-center rounded-[10px] p-[20px] text-preset-3 w-full">
-          <Image
-            src="/followers.png"
-            alt="growth chart"
-            width="227"
-            height="200"
-          />
+
+        <div className="bg-purple-500 text-center rounded-[10px] p-[20px] text-preset-3 w-full">
+          <div className="justify-items-center">
+            <Image
+              src="/chart.svg"
+              alt="growth chart"
+              width="227"
+              height="200"
+            />
+          </div>
           Grow followers with non-stop content.
         </div>
-        <div className="bg-white items-center rounded-[10px] p-[20px] text-black w-full">
-          56% faster audience growth
+        <div className="bg-white rounded-[10px] p-[20px] text-black w-full">
+          <span>&gt;</span> 56% faster audience growth
           <Image src="/avatars.png" alt="avatars" width="178" height="66" />
         </div>
-        <div className="bg-yellow-100 items-center rounded-[10px] p-[32px] text-black text-[32px] font-medium leading-[28px] tracking-[-0.06em] pb-[24px] w-full">
+        <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] font-medium leading-[28px] tracking-[-0.085em] w-full">
           Create and schedule content
           <div className="text-purple-500 inline mb-[24px]">
             <i> quicker.</i>
@@ -89,8 +101,8 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="bg-yellow-500 items-center rounded-[10px] p-[20px] text-black w-full">
-          Write your content using AI.
+        <div className="bg-yellow-500 rounded-[10px] p-[24px] text-black w-full text-[32px] font-medium leading-[28px] tracking-[-0.06em]">
+          <p className="mb-[24px]"> Write your content using AI.</p>
           <Image src="/chat.png" alt="ai chat" width="219" height="222" />
         </div>
       </div>

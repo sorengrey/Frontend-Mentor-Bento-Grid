@@ -47,11 +47,11 @@ body {
 }
 
 .text-preset-3 {
-  @apply text-[26px] font-medium leading-[24px] tracking-[-0.06em];
+  @apply text-[26px] font-medium leading-[24px] tracking-[-0.075em];
 }
 
 .text-preset-4 {
-  @apply text-[12px] text-[#9E9E9E/70] leading-[20px] tracking-[0px];
+  @apply text-[12px] font-normal text-[#9E9E9E/70] leading-[20px] tracking-[-0.03em];
 }
 
 
