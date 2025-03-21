@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col text-preset-1 text-[46px] p-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
+        <div className="flex flex-col text-preset-1 text-[46px] py-[40px] px-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
           Social Media
           <div className="flex text-yellow-500 inline"> 10x </div>
-          <i className="mr-[10px]">Faster</i>with AI
+          <i className="mr-[11px]">Faster</i>with AI
           <div className="mt-[24px] mb-[8px]">
             <Image src="/stars.svg" alt="five stars" width="192" height="32" />
           </div>
@@ -50,13 +50,14 @@ export default function Home() {
 
         <div className="bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-[26px] font-medium leading-[24px] tracking-[-0.06em] text-black">
           Maintain a consistent posting schedule.
-          <Image
-            src="/calendar.svg"
-            alt="calendar"
-            width="208"
-            height="157"
-            className="ml-[-12px]"
-          />
+          <div className="h-[157px] w-[208px] pt-[20px]">
+            <Image
+              src="/calendar.svg"
+              alt="calendar"
+              width={208}
+              height={157}
+            />
+          </div>
         </div>
 
         <div className="bg-purple-100 rounded-[10px] p-[32px] text-black text-center justify-items-center w-full">
@@ -72,8 +73,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-purple-500 text-center rounded-[10px] p-[20px] text-preset-3 w-full">
-          <div className="justify-items-center ">
+        <div className="bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full">
+          <div className="justify-items-center">
             <Image
               src="/chart.svg"
               alt="growth chart"
