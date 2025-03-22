@@ -43,17 +43,23 @@ body {
 }
 
 .text-preset-2 {
-  @apply font-medium text-[40px] leading-[42px] tracking-[-2px];
+  @apply font-medium leading-[24px] tracking-[-0.06em];
 }
 
 .text-preset-3 {
-  @apply text-[26px] font-medium leading-[24px] tracking-[-0.075em];
+  @apply font-medium text-[26px] leading-[24px] tracking-[-0.075em];
 }
 
 .text-preset-4 {
-  @apply text-[12px] font-normal text-[#9E9E9E/70] leading-[20px] tracking-[-0.03em];
+  @apply text-[12px] font-normal leading-[20px] tracking-[-0.03em] text-[#9E9E9E];
 }
 
+.text-preset-5 {
+  @apply font-medium leading-[28px] tracking-[-0.085em];
+}
+
+.custom-shadow {
+  @apply shadow-[0_0_24.45px_0_rgba(98,26,123,0.05)]
+}
 
 /* .mobile-defaults {} */
-

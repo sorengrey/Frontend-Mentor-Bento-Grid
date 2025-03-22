@@ -18,37 +18,35 @@ export default function Home() {
 
         <div className="flex flex-col p-[16px] text-black bg-white text-[26px] rounded-[10px] padding-[16px]">
           <div className="flex bg-white mb-[16px] gap-[10px]">
-            <div className="flex flex-row flex-1 p-[12px] shadow-[0_0_24.45px_0_rgba(98,26,123,0.05)] rounded-[34px] text-[16px]">
+            <div className="flex flex-row flex-1 p-[12px] custom-shadow rounded-[34px] text-[16px]">
               <Image
                 src="/instagram.svg"
                 alt="instagram logo"
                 width="42"
                 height="42"
               />
-              <div className="flex flex-col font-medium tracking-[-0.06em]  ml-[8px]">
+              <div className="flex flex-col font-medium tracking-[-0.06em] ml-[8px]">
                 @YourCo
-                <div className="text-preset-4 text-[#9E9E9E]">
-                  12K Followers
-                </div>
+                <div className="text-preset-4">12K Followers</div>
               </div>
             </div>
 
-            <div className="flex flex-1 p-[12px] shadow-[0_0_24.45px_0_rgba(98,26,123,0.05)] rounded-[34px]">
+            <div className="flex flex-1 p-[12px] custom-shadow rounded-[34px]">
               <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
               <div className="flex flex-col ml-[8px]">
                 <div className="text-[16px] font-medium tracking-[-0.06em]">
                   @YourCo
                 </div>
-                <div className="text-preset-4 text-[#9E9E9E]">8k Followers</div>
+                <div className="text-preset-4">8k Followers</div>
               </div>
             </div>
           </div>
-          <div className="text-[26px] font-medium leading-[24px] tracking-[-0.06em] ">
+          <div className="text-[26px] text-preset-2">
             Manage multiple accounts and platforms.
           </div>
         </div>
 
-        <div className="bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-[26px] font-medium leading-[24px] tracking-[-0.06em] text-black">
+        <div className="bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-2 text-[26px] text-black">
           Maintain a consistent posting schedule.
           <div className="h-[157px] w-[208px] pt-[20px]">
             <Image
@@ -82,7 +80,7 @@ export default function Home() {
               height="200"
             />
           </div>
-          <p className="text-[32px] font-medium leading-[28px] tracking-[-0.085em]">
+          <p className="text-[32px] text-preset-5">
             Grow followers with non-stop content.
           </p>
         </div>
@@ -95,7 +93,7 @@ export default function Home() {
           </p>
           <Image src="/avatars.png" alt="avatars" width="179" height="67" />
         </div>
-        <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] font-medium leading-[28px] tracking-[-0.085em] w-full">
+        <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] text-preset-5 w-full">
           Create and schedule content
           <div className="text-purple-500 inline mb-[24px]">
             <i> quicker.</i>
@@ -109,9 +107,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="bg-yellow-500 rounded-[10px] p-[24px] text-black w-full text-[32px] font-medium leading-[28px] tracking-[-0.06em]">
+        <div className="bg-yellow-500 rounded-[10px] p-[24px] text-black w-full text-[32px] text-preset-5">
           <p className="mb-[24px]"> Write your content using AI.</p>
-          <Image src="/chat.png" alt="ai chat" width="219" height="222" />
+          <Image src="/chat.png" alt="ai chat" width="220" height="223" />
         </div>
       </div>
     </div>
