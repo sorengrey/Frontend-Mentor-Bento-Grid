@@ -6,19 +6,19 @@ export default function Home() {
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
         <div className="flex flex-col text-preset-1 text-[46px] py-[40px] px-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
           Social Media
-          <div className="flex text-yellow-500 inline"> 10x </div>
+          <p className="flex text-yellow-500 inline"> 10x </p>
           <i className="mr-[11px]">Faster</i>with AI
           <div className="mt-[24px] mb-[8px]">
             <Image src="/stars.svg" alt="five stars" width="192" height="32" />
           </div>
-          <div className="text-[18px] leading-[20px] tracking-[0px] font-normal">
+          <p className="text-[18px] leading-[20px] tracking-[0px] font-normal">
             Over 4,000 5-star reviews
-          </div>
+          </p>
         </div>
 
-        <div className="flex flex-col p-[16px] text-black bg-white text-[26px] rounded-[10px] padding-[16px]">
+        <div className="flex flex-col p-[16px] bg-white text-[26px] rounded-[10px] padding-[16px]">
           <div className="flex bg-white mb-[16px] gap-[10px]">
-            <div className="flex flex-row flex-1 p-[12px] custom-shadow rounded-[34px] text-[16px]">
+            <div className="flex flex-row flex-1 p-[12px] custom-shadow rounded-[34px] text-[16px] text-black">
               <Image
                 src="/instagram.svg"
                 alt="instagram logo"
@@ -27,26 +27,26 @@ export default function Home() {
               />
               <div className="flex flex-col font-medium tracking-[-0.06em] ml-[8px]">
                 @YourCo
-                <div className="text-preset-4">12K Followers</div>
+                <p className="text-preset-4">12K Followers</p>
               </div>
             </div>
 
             <div className="flex flex-1 p-[12px] custom-shadow rounded-[34px]">
               <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
               <div className="flex flex-col ml-[8px]">
-                <div className="text-[16px] font-medium tracking-[-0.06em]">
+                <p className="text-[16px] text-black  font-medium tracking-[-0.06em]">
                   @YourCo
-                </div>
-                <div className="text-preset-4">8k Followers</div>
+                </p>
+                <p className="text-preset-4">8k Followers</p>
               </div>
             </div>
           </div>
-          <div className="text-[26px] text-preset-2">
+          <p className="text-[26px] text-black text-preset-2">
             Manage multiple accounts and platforms.
-          </div>
+          </p>
         </div>
 
-        <div className="bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-2 text-[26px] text-black">
+        <div className="bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-2 text-black  text-[26px]">
           Maintain a consistent posting schedule.
           <div className="h-[157px] w-[208px] pt-[20px]">
             <Image
@@ -59,16 +59,14 @@ export default function Home() {
         </div>
 
         <div className="bg-purple-100 rounded-[10px] p-[32px] text-black text-center justify-items-center w-full">
-          <div className="text-preset-3 mb-[24px]">
-            Schedule to social media.
-          </div>
+          <p className="text-preset-3 mb-[24px]">Schedule to social media.</p>
           <div className="w-[308px] h-[272px]">
             <Image src="/graph.svg" alt="graph" width={308} height={272} />
           </div>
-          <div className="text-[18px] tracking-[0px] leading-[20px] mt-[24px] text-center">
+          <p className="text-[18px] tracking-[0px] leading-[20px] mt-[24px] text-center">
             Optimize post timings to publish content at the perfect time for
             your audience.
-          </div>
+          </p>
         </div>
 
         <div className="bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full">

@@ -19,13 +19,12 @@
   --color-yellow-100: #F9EEE2;
   --color-yellow-500: #FFCC6A;
   --font-sans: var(--font-dm-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #F6F5F6;
   }
 }
 
