@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen py-[32px] px-[16px] bg-[#F6F5F6]">
+    <div className="min-h-screen py-[32px] md:py-[50px] md:px-[40px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] items-center justify-items-center gap-[32px] margin-auto">
         <div className="flex flex-col text-preset-1 text-[46px] py-[40px] px-[32px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
           Social Media
