@@ -38,7 +38,7 @@ body {
 /* Custom Styles */
 
 .text-preset-1 {
-  @apply font-medium leading-[42px] tracking-[-4px]; 
+  @apply font-medium leading-[42px] md:leading-[48px] tracking-[-4.5px]; 
 }
 
 .text-preset-2 {
