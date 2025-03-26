@@ -69,7 +69,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full">
+        <div className="flex bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full">
           <div className="justify-items-center">
             <Image
               src="/chart.svg"
@@ -82,32 +82,40 @@ export default function Home() {
             Grow followers with non-stop content.
           </p>
         </div>
-        <div className="bg-white rounded-[10px] p-[24px] text-black w-full">
+
+        <div className="flex justify-between bg-white rounded-[10px] p-[24px] text-black w-full">
           <div className="text-[46px] font-medium leading-[42px] tracking-[-0.085em] mb-[15px]">
             <span>&gt;</span>56%{" "}
+            <p className="mb-[24px] text-[18px] leading-[20px] tracking-[0]">
+              faster audience growth
+            </p>
           </div>
-          <p className="mb-[24px] text-[18px] leading-[20px] tracking-[0]">
-            faster audience growth
-          </p>
-          <Image src="/avatars.png" alt="avatars" width="179" height="67" />
-        </div>
-        <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] text-preset-5 w-full">
-          Create and schedule content
-          <div className="text-purple-500 inline mb-[24px]">
-            <i> quicker.</i>
-          </div>
-          <div className="mt-[24px]">
-            <Image
-              src="/button.svg"
-              alt="create post button"
-              width="190"
-              height="90"
-            />
+
+          <div>
+            <Image src="/avatars.png" alt="avatars" width="179" height="67" />
           </div>
         </div>
-        <div className="bg-yellow-500 rounded-[10px] p-[24px] text-black w-full text-[32px] text-preset-5">
-          <p className="mb-[24px]"> Write your content using AI.</p>
-          <Image src="/chat.png" alt="ai chat" width="220" height="223" />
+
+        <div className="flex md:flex-row gap-[32px]">
+          <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] text-preset-5 w-full">
+            Create and schedule content
+            <div className="text-purple-500 inline mb-[24px]">
+              <i> quicker.</i>
+            </div>
+            <div className="mt-[24px]">
+              <Image
+                src="/button.svg"
+                alt="create post button"
+                width="190"
+                height="90"
+              />
+            </div>
+          </div>
+
+          <div className="bg-yellow-500 rounded-[10px] p-[24px] text-black w-full text-[32px] text-preset-5">
+            <p className="mb-[24px]"> Write your content using AI.</p>
+            <Image src="/chat.png" alt="ai chat" width="220" height="223" />
+          </div>
         </div>
       </div>
     </div>
