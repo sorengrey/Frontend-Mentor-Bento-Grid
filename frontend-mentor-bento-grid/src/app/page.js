@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen py-[32px] md:py-[50px] md:px-[40px] px-[16px] bg-[#F6F5F6]">
-      <div className="grid grid-cols-1 max-w-[375px] md:max-w-[688px] items-center justify-items-center gap-[32px] margin-auto">
-        <div className="flex flex-col text-preset-1 text-[46px] md:text-[54px] py-[40px] px-[32px] md:px-[76px] md:pt-[76px] md:pb-[72px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full">
+      <div className="grid grid-cols-1 max-w-[375px] md:max-w-[688px]  justify-items-center gap-[32px] margin-auto">
+        <div className="flex flex-col text-preset-1 text-[46px] md:text-[54px] py-[40px] px-[32px] md:px-[76px] md:pt-[76px] md:pb-[72px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px]">
           Social Media
           <p className="flex text-yellow-500 inline"> 10x </p>
           <i className="mr-[11px]">Faster</i>with AI
@@ -15,8 +15,8 @@ export default function Home() {
             Over 4,000 5-star reviews
           </p>
         </div>
-        <div className="flex md:flex-row gap-[32px]">
-          <div className="flex-1 flex flex-col p-[16px] bg-white text-[26px] rounded-[10px] padding-[16px]">
+        <div className="md:flex md:flex-row gap-[32px]">
+          <div className="flex-1 flex flex-col p-[16px] bg-white text-[26px] rounded-[10px] sm:mb-[32px] md:mb-[0px]">
             <div className="flex bg-white mb-[16px] gap-[10px]">
               <div className="flex flex-row flex-1 p-[12px] custom-shadow rounded-[34px] text-[16px] text-black">
                 <Image
@@ -31,13 +31,13 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex flex-1 p-[12px] custom-shadow rounded-[34px]">
+              <div className="flex flex-1 p-[12px] custom-shadow rounded-[34px] ">
                 <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
                 <div className="flex flex-col ml-[8px]">
                   <p className="text-[16px] text-black font-medium tracking-[-0.06em]">
                     @YourCo
                   </p>
-                  <p className="text-preset-4">8k Followers</p>
+                  <p className="text-preset-4">8K Followers</p>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex  flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-2 text-black  text-[26px]">
+          <div className="flex flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-2 text-black text-[26px] mt-[32px] md:mt-[0px]">
             Maintain a consistent posting schedule.
             <div className="h-[157px] w-[208px] pt-[20px]">
               <Image
@@ -96,8 +96,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex md:flex-row gap-[32px]">
-          <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] text-preset-5 w-full">
+        <div className="md:flex md:flex-row gap-[32px]">
+          <div className="bg-yellow-100 rounded-[10px] pl-[32px] pr-[32px] pb-[24px] pt-[32px] text-black text-[32px] text-preset-5 w-full mb-[32px] md:mb-[0px]">
             Create and schedule content
             <div className="text-purple-500 inline mb-[24px]">
               <i> quicker.</i>
