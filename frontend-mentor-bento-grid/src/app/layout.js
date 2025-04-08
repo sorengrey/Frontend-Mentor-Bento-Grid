@@ -9,6 +9,9 @@ const dm_Sans = DM_Sans({
 export const metadata = {
   title: "Bento Grid",
   description: "A challenge from Frontend Mentor, completed by Heather Smith",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

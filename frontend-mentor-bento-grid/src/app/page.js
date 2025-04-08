@@ -5,15 +5,23 @@ export default function Home() {
     <div className="min-h-screen py-[32px] md:py-[50px] md:px-[40px] px-[16px] bg-[#F6F5F6]">
       <div className="grid grid-cols-1 max-w-[375px] md:max-w-[688px]  justify-items-center gap-[32px]">
         <div className="flex flex-col text-preset-1 text-[46px] md:text-[54px] py-[40px] px-[32px] md:px-[72px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full md:py-[76px]">
-          Social Media
-          <p className="flex text-yellow-500 inline"> 10x </p>
-          <i className="mr-[11px]"> Faster </i>with AI
-          <div className="mt-[24px] mb-[8px]">
-            <Image src="/stars.svg" alt="five stars" width="192" height="32" />
+          <div className="md:max-w-[500px]">
+            Social Media
+            <p className="flex text-yellow-500 inline"> 10x </p>
+            <i className="mr-[11px]"> Faster </i>with AI
+            <div className="mt-[24px] mb-[8px]">
+              <Image
+                src="/illustration-five-stars.webp"
+                alt="five stars"
+                width="192"
+                height="32"
+                className="md:m-auto"
+              />
+            </div>
+            <p className="text-[18px] leading-[20px] tracking-[0px] font-normal">
+              Over 4,000 5-star reviews
+            </p>
           </div>
-          <p className="text-[18px] leading-[20px] tracking-[0px] font-normal">
-            Over 4,000 5-star reviews
-          </p>
         </div>
         <div className="md:flex md:flex-row gap-[32px]">
           <div className="flex-1 flex flex-col p-[16px] bg-white text-[26px] rounded-[10px] sm:mb-[32px] md:mb-[0px]">
@@ -41,16 +49,16 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <p className="text-[26px] text-black text-preset-2">
+            <p className="text-[26px] md:text-[28px] text-black text-preset-2">
               Manage multiple accounts and platforms.
             </p>
           </div>
 
-          <div className="flex flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black text-[26px] md:text-[32px] mt-[32px] md:mt-[0px]">
+          <div className="flex flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black text-[26px] md:text-[28px] mt-[32px] md:mt-[0px]">
             Maintain a consistent posting schedule.
-            <div className="h-[157px] w-[208px] pt-[20px]">
+            <div className="h-[157px] w-[208px] pt-[20px] overflow-hidden">
               <Image
-                src="/calendar.svg"
+                src="/illustration-consistent-schedule.webp"
                 alt="calendar"
                 width={208}
                 height={157}
@@ -62,7 +70,7 @@ export default function Home() {
           <p className="text-preset-3 mb-[24px]">Schedule to social media.</p>
           <div className="w-[308px] md:w-[358px]">
             <Image
-              src="/graph.svg"
+              src="/illustration-schedule-posts.webp"
               alt="graph"
               width={308}
               height={272}
@@ -78,7 +86,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full">
           <div className="justify-items-center md:w-[227px] md:h-[200px] mb-[40px] md:mb-[0px]">
             <Image
-              src="/chart.webp"
+              src="/illustration-grow-followers.webp"
               alt="growth chart"
               width="227"
               height="200"
@@ -100,7 +108,12 @@ export default function Home() {
           </div>
 
           <div>
-            <Image src="/avatars.png" alt="avatars" width="179" height="67" />
+            <Image
+              src="/illustration-audience-growth.webp"
+              alt="avatars"
+              width="179"
+              height="67"
+            />
           </div>
         </div>
 
@@ -112,10 +125,10 @@ export default function Home() {
             </div>
             <div className="mt-[24px]">
               <Image
-                src="/button.svg"
+                src="/illustration-create-post.webp"
                 alt="create post button"
-                width="190"
-                height="90"
+                width="191"
+                height="91"
               />
             </div>
           </div>
@@ -125,7 +138,12 @@ export default function Home() {
               {" "}
               Write your content using AI.
             </p>
-            <Image src="/chat.png" alt="ai chat" width="220" height="223" />
+            <Image
+              src="/illustration-ai-content.webp"
+              alt="ai chat"
+              width="220"
+              height="223"
+            />
           </div>
         </div>
       </div>
