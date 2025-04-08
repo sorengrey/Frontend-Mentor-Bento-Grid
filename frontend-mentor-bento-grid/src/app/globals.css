@@ -38,23 +38,19 @@ body {
 /* Custom Styles */
 
 .text-preset-1 {
-  @apply font-medium leading-[42px] md:leading-[48px] tracking-[-4.5px]; 
+  @apply font-medium leading-[42px] md:leading-[48px] tracking-[-3px]; 
 }
 
 .text-preset-2 {
-  @apply font-medium leading-[24px] tracking-[-0.06em];
+  @apply font-medium leading-[90%] tracking-[-2px];
 }
 
 .text-preset-3 {
-  @apply font-medium text-[26px] leading-[24px] tracking-[-0.075em];
+  @apply font-medium text-[26px] leading-[24px] tracking-[-2px];
 }
 
 .text-preset-4 {
-  @apply text-[12px] font-normal leading-[20px] tracking-[-0.03em] text-[#9E9E9E];
-}
-
-.text-preset-5 {
-  @apply font-medium leading-[28px] tracking-[-0.085em];
+  @apply text-[12px] font-normal leading-[20px] tracking-[0px] text-[#9E9E9E];
 }
 
 .custom-shadow {
