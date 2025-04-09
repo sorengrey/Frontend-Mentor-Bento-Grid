@@ -3,6 +3,8 @@ import "./globals.css";
 
 const dm_Sans = DM_Sans({
   variable: "--font-dm-sans",
+  medium: "--font-dm-sans-medium",
+  italic: "--font-dm-sans-mediumitalic",
   subsets: ["latin"],
 });
 

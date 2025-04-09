@@ -15,7 +15,7 @@ export default function Home() {
                 alt="five stars"
                 width="192"
                 height="32"
-                className="md:m-auto"
+                className="m-auto"
               />
             </div>
             <p className="text-[18px] leading-[20px] tracking-[0px] font-normal">
@@ -24,39 +24,25 @@ export default function Home() {
           </div>
         </div>
         <div className="md:flex md:flex-row gap-[32px]">
-          <div className="flex-1 flex flex-col p-[16px] bg-white text-[26px] rounded-[10px] sm:mb-[32px] md:mb-[0px]">
-            <div className="flex bg-white mb-[16px] gap-[10px]">
-              <div className="flex flex-row flex-1 p-[12px] custom-shadow rounded-[34px] text-[16px] text-black">
-                <Image
-                  src="/instagram.svg"
-                  alt="instagram logo"
-                  width="42"
-                  height="42"
-                />
-                <div className="flex flex-col font-medium tracking-[-0.06em] ml-[8px]">
-                  @YourCo
-                  <p className="text-preset-4">12K Followers</p>
-                </div>
-              </div>
-
-              <div className="flex flex-1 p-[12px] custom-shadow rounded-[34px] ">
-                <Image src="/twitter.svg" alt="x logo" width="42" height="42" />
-                <div className="flex flex-col ml-[8px]">
-                  <p className="text-[16px] text-black font-medium tracking-[-0.06em]">
-                    @YourCo
-                  </p>
-                  <p className="text-preset-4">8K Followers</p>
-                </div>
-              </div>
+          <div className="flex-1 flex flex-col p-[16px] md:p-[24px] md:justify-between bg-white text-[26px] rounded-[10px] sm:mb-[32px] md:mb-[0px]">
+            <div className="flex max-w-[316px] md:w-[316px] md:h-[66px] custom-shadow rounded-[32px]">
+              <Image
+                src="/illustration-multiple-platforms.webp"
+                alt="multiple social media accounts"
+                width={316}
+                height={66}
+                quality={100}
+                className="max-w-[316px] md:w-[316px] md:h-[66px] rounded-[32px]"
+              />
             </div>
-            <p className="text-[26px] md:text-[28px] text-black text-preset-2">
+            <p className="text-[26px] md:text-[28px] mt-[16px] md:pt-[0px] text-black text-preset-2">
               Manage multiple accounts and platforms.
             </p>
           </div>
 
           <div className="flex flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black text-[26px] md:text-[28px] mt-[32px] md:mt-[0px]">
             Maintain a consistent posting schedule.
-            <div className="h-[157px] w-[208px] pt-[20px] overflow-hidden">
+            <div className="h-[157px] w-[208px] pt-[16px] overflow-hidden">
               <Image
                 src="/illustration-consistent-schedule.webp"
                 alt="calendar"
@@ -67,16 +53,19 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-purple-100 rounded-[10px] py-[32px] text-black text-center justify-items-center w-full px-[32px]">
-          <p className="text-preset-3 mb-[24px]">Schedule to social media.</p>
-          <div className="w-[308px] md:w-[358px]">
-            <Image
-              src="/illustration-schedule-posts.webp"
-              alt="graph"
-              width={308}
-              height={272}
-              className="w-[308px] h-[272px] md:w-[358px] md:h-[318px]"
-            />
-          </div>
+          <p className="text-preset-3 mb-[24px] md:text-[28px]">
+            Schedule to social media.
+          </p>
+
+          <Image
+            src="/illustration-schedule-posts.webp"
+            alt="graph"
+            width={308}
+            height={272}
+            quality={100}
+            className="md:w-[357px] md:h-[319px]"
+          />
+
           <p className="text-[18px] tracking-[0px] leading-[20px] mt-[24px] text-center md:max-w-[355px]">
             Optimize post timings to publish content at the perfect time for
             your audience.

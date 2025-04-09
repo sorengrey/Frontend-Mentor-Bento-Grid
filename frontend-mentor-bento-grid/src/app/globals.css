@@ -53,8 +53,9 @@ body {
   @apply text-[12px] font-normal leading-[20px] tracking-[0px] text-[#9E9E9E];
 }
 
+/* for the @YourCo image */
 .custom-shadow {
-  @apply shadow-[0_0_24.45px_0_rgba(98,26,123,0.05)]
+  @apply shadow-[0_0_24px_0_rgba(98,26,123,0.05)]
 }
 
 /* .mobile-defaults {} */
