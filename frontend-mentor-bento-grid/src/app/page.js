@@ -24,23 +24,23 @@ export default function Home() {
           </div>
         </div>
         <div className="md:flex md:flex-row gap-[32px]">
-          <div className="flex-1 flex flex-col p-[16px] md:p-[24px] md:justify-between bg-white text-[26px] rounded-[10px] sm:mb-[32px] md:mb-[0px]">
+          <div className="flex-1 flex flex-col p-[16px] md:p-[24px] md:justify-between md:max-w-[328px] md:overflow-hidden bg-white text-[26px] rounded-[10px] sm:mb-[32px] md:mb-[0px]">
             <div className="flex max-w-[316px] md:w-[316px] md:h-[66px] custom-shadow rounded-[32px]">
               <Image
                 src="/illustration-multiple-platforms.webp"
                 alt="multiple social media accounts"
-                width={316}
-                height={66}
+                width={317}
+                height={67}
                 quality={100}
                 className="max-w-[316px] md:w-[316px] md:h-[66px] rounded-[32px]"
               />
             </div>
-            <p className="text-[26px] md:text-[28px] mt-[16px] md:pt-[0px] text-black text-preset-2">
+            <p className="text-[26px] md:text-[28px] mt-[16px] md:mt-[0px] md:max-w-[208px] text-black text-preset-2">
               Manage multiple accounts and platforms.
             </p>
           </div>
 
-          <div className="flex flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black text-[26px] md:text-[28px] mt-[32px] md:mt-[0px]">
+          <div className="flex flex-col flex-1 bg-yellow-500 rounded-[10px] pt-[16px] px-[16px] w-full text-preset-3 text-black text-[26px] md:text-[28px] mt-[32px] md:mt-[0px] md:pt-[24px] md:px-[24px]">
             Maintain a consistent posting schedule.
             <div className="h-[157px] w-[208px] pt-[16px] overflow-hidden">
               <Image
@@ -72,19 +72,18 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full">
-          <div className="justify-items-center md:w-[227px] md:h-[200px] mb-[40px] md:mb-[0px]">
+        <div className="flex flex-col md:flex-row bg-purple-500 text-center rounded-[10px] p-[24px] text-preset-3 w-full justify-center items-center md:gap-[40px]">
+          <div className="flex justify-center md:w-[227px] md:h-[200px]">
             <Image
               src="/illustration-grow-followers.webp"
               alt="growth chart"
               width="227"
               height="200"
+              quality={100}
             />
           </div>
-          <div className="flex justify-center w-full">
-            <p className="text-[32px] text-left text-preset-2 max-w-[257px] md:mt-[72px]">
-              Grow followers with non-stop content.
-            </p>
+          <div className="text-[32px] md:text-[36px] text-center md:text-left text-preset-2 mt-[40px] md:mt-[0px] max-w-[257px]">
+            Grow followers with non-stop content.
           </div>
         </div>
 
