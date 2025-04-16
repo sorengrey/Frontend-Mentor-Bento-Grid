@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen py-[32px] md:py-[50px] md:px-[40px] px-[16px] bg-[#F6F5F6]">
-      <div className="grid grid-cols-1 max-w-[375px] md:max-w-[688px]  justify-items-center gap-[32px]">
-        <div className="flex flex-col text-preset-1 text-[46px] md:text-[54px] py-[40px] px-[32px] md:px-[72px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full md:py-[76px]">
+    <div className="min-h-screen p-[32px] md:py-[50px] md:px-[40px] lg:pt-[83px] bg-[#F6F5F6]">
+      <div className="grid grid-cols-1 max-w-[375px] md:max-w-[688px] lg:max-w-[544px] lg:m-auto justify-items-center gap-[32px]">
+        <div className="flex flex-col text-preset-1 text-[46px] md:text-[54px] lg:text-[62px] py-[40px] px-[32px] md:px-[72px] lg:px-[62px] bg-purple-500 inline-block text-center justify-items-center rounded-[10px] w-full md:py-[76px]">
           <div className="md:max-w-[500px]">
             Social Media
             <p className="flex text-yellow-500 inline"> 10x </p>
-            <i className="mr-[11px]"> Faster </i>with AI
+            <i className="mr-[11px]"> Faster</i>with AI
             <div className="mt-[24px] mb-[8px]">
               <Image
                 src="/illustration-five-stars.webp"

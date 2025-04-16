@@ -1,12 +1,4 @@
-import { DM_Sans } from "next/font/google";
 import "./globals.css";
-
-const dm_Sans = DM_Sans({
-  variable: "--font-dm-sans",
-  medium: "--font-dm-sans-medium",
-  italic: "--font-dm-sans-mediumitalic",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Bento Grid",
@@ -19,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dm_Sans.variable} antialiased`}>{children}</body>
+      <body className={"font-sans antialiased"}>{children}</body>
     </html>
   );
 }

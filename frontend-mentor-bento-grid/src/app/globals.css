@@ -34,7 +34,26 @@ body {
   font-family: 'DM Sans', Helvetica, sans-serif;
 }
 
+@font-face {
+  font-family: "DM Sans";
+  src: url("/fonts/DM_Sans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "DM Sans";
+  src: url("/fonts/DM_Sans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("/fonts/DM_Sans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
 /* Custom Styles */
 
 .text-preset-1 {
